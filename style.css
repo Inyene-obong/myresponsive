@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color: rgb(58, 208, 186);
+    height: 100vh;
+}
+.gallery{
+    width: 100vw;
+    margin: 20px;
+    padding: 20px;
+    background-color: aqua;
+    border: 1px solid #cf2828;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 250px);
+    gap: 20px;
+}
+
+.box{
+    border-radius: 20px;
+}
+
+.pix1{
+    overflow: hidden;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+.pix1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pix2{
+    overflow: hidden;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.pix2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pix3{
+    overflow: hidden;
+    grid-column: span 3;
+    background-color: rgb(16, 25, 25);
+}
+.pix3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pix4{
+    overflow: hidden;
+    grid-row: span 2;
+    background-color: rgb(27, 38, 38);
+}
+.pix4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pix5{
+    overflow: hidden;
+    grid-column: span 3;
+    background-color: rgb(7, 12, 12);
+}
+.pix5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pix6{
+    overflow: hidden;
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: rgb(29, 60, 60);
+}
+.pix6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pix7{
+    overflow: hidden;
+    grid-column: span 2;
+    background-color: rgb(19, 30, 30);
+}
+.pix7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pix8{
+    overflow: hidden;
+    grid-column: span 2;
+    background-color: rgb(23, 34, 34);
+}
+.pix8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
